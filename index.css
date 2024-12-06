@@ -1,0 +1,145 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.container {
+   display: flex;
+   flex-direction: row;
+   margin: auto;
+   margin-top: 15px;
+   gap: 10px;
+   width: 600px;
+   height: 600px;
+   border: 1px solid rgb(22, 88, 221);
+   padding:30px;
+   background-color: rgb(29, 3, 3);
+}
+
+.leftbox {
+   width: 300px;
+   height: 600px;
+   /* border: 1px solid black; */
+}
+
+.leftbox img {
+   width: 300px;
+   height: 600px;
+   /* border: 1px black; */
+}
+
+.rightbox {
+   width: 300px;
+   height: 600px;
+   /* border: 1px solid black; */
+}
+
+.detail {
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+   width: 300px;
+   height: 200px;
+   border: 1px solid black;
+   color: black;
+   background-color: white;
+   border-radius: 15px;
+   margin-bottom: 10px;
+}
+
+.detail p {
+   text-align: start;
+   padding: 10px;
+   word-spacing: 3px;
+   font-size: 18px;
+   font-weight: 500;
+}
+
+.detail h2 {
+   padding-top: 10px;
+   text-align: left;
+   padding-left: 10px;
+   font-weight: bold;
+}
+
+.imgbox {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   width: 300px;
+   height: 200px;
+   background-color: black;
+   margin-bottom: 10px;
+   }
+
+.boximg1 {
+   width: 150px;
+   /* border: 1px solid black; */
+}
+
+.boximg1 img {
+   width: 140px;
+   height: 195px;
+   border-radius: 15px;
+   padding: 5px;
+}
+
+.boximg2 {
+   width: 150px;
+   /* border: 1px solid black; */
+
+}
+
+.boximg2 img {
+   width: 140px;
+   height: 195px;
+   border-radius: 15px;
+   padding: 5px;
+}
+
+.connect {
+   border: 1px solid black;
+   width: 300px;
+   height:175px;
+   color: black;
+   background-color: white;
+   border-radius: 15px;
+   font-weight: 500;
+  margin-top: 15px;
+}
+
+.formbox h2 {
+   padding: 10px 10px;
+}
+
+
+.form-input {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   padding-top:10px;
+}
+
+.form-input input {
+   width: 130px;
+   background-color: rgb(245, 233, 233);
+   border: none;
+   border-radius: 5px;
+   height: 24px;
+}
+
+.formbtn {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.formbtn button {
+   background-color: rgb(232, 232, 16);
+   width: 280px;
+   height: 25px;
+   border: 2px solid black;
+   border-radius: 15px;
+   margin-top: 20px;
+   font-weight: bold;
+}
